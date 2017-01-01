@@ -1,9 +1,14 @@
 ﻿var express = require('express');
 var app = express();
 
+//app.use(express.static('public'));
+app.use('/static',express.static('public'));
+
+
 app.get('/', function (req, res) {
     res.json({ message: 'hooray! welcome to our api!' });
 });
+
 
 app.get('/Home', function (req, res) {
     res.json({ message: 'hooray! welcome Home!' });
