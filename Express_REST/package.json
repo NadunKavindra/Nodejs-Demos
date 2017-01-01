@@ -1,0 +1,13 @@
+{
+  "name": "express_rest",
+  "version": "0.0.0",
+  "description": "Express_REST",
+  "main": "server.js",
+  "author": {
+    "name": "Nadun_K"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0"
+  }
+}

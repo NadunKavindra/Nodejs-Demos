@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-web-app_demo_01",
+  "version": "0.0.0",
+  "description": "NodejsWebApp_Demo_01",
+  "main": "server.js",
+  "author": {
+    "name": "Nadun_K"
+  }
+}
