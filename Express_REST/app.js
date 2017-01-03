@@ -14,6 +14,10 @@ app.get('/Home', function (req, res) {
     res.json({ message: 'hooray! welcome Home!' });
 });
 
+app.get('/HtmlPage', function (req, res) {
+    res.send('This would be some Html');
+});
+
 var server = app.listen(7001, function () {
     var host = server.address().address
     var port = server.address().port
