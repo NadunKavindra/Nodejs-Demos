@@ -1,0 +1,13 @@
+{
+  "name": "soket-io",
+  "version": "0.0.0",
+  "description": "SoketIO",
+  "main": "server.js",
+  "author": {
+    "name": "Nadun_K"
+  },
+  "dependencies": {
+    "express": "4.14.0",
+    "socket.io": "1.7.2"
+  }
+}
